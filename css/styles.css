@@ -133,3 +133,9 @@ select {
 section, header {
   padding: 1rem;
 }
+
+.image {
+  width: 50vw;
+  margin: 30px auto;
+  border: 1px solid black;
+}
