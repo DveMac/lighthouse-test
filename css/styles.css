@@ -94,13 +94,13 @@ a {
   text-decoration: underline;
 }
 a:link {
-  color: #0000ee;
+  color: #000;
 }
 a:visited {
-  color: #551a8b;
+  color: #000;
 }
 a:active {
-  color: #ee0000;
+  color: #000;
 }
 /* Add your own styles for hover _and_ focus styles */
 a:hover,
@@ -135,13 +135,27 @@ section, header {
 }
 
 header {
-  background-color: #002399;
+  background-color: #330000;
   color: white;
 }
 
 footer {
   text-align: center;
   font-size: small;
+}
+
+nav > ul {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  list-style: none;
+  grid-auto-flow: column;
+}
+
+nav > ul > li {
+  padding: 1rem;
+  background-color: #FFCCCC;
+  margin: 0 0.5rem 0 0;
 }
 
 .image {

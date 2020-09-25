@@ -1,11 +1,10 @@
+window.addEventListener("load", function () {
+  console.log("loaded");
 
-window.addEventListener('load', function () {
-    console.log('loaded');
-    
-    const images = document.querySelectorAll('img');
-    for (let image of images) {
-        image.addEventListener('mouseover', function () {
-            alert('MEATY!');
-        })
-    }
-})
+  const images = document.querySelectorAll("img");
+  for (let image of images) {
+    image.addEventListener("mouseover", function () {
+      alert("MEATY!");
+    });
+  }
+});

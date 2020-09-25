@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="Movies!" />
+    <meta name="author" content="MovieGuys" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=5" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Meat Movie Reviews</h1>
+      <h2>All the bestest meat-based movie reviews</h2>
+      <nav>
+        <ul>
+          <li><a href="/" alt="Vanilla">Vanilla</a></li>
+          <li>
+            <a href="/dehydrated-state.html" alt="Dehydrated State"
+              >Dehydrated State</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="main">
+      <article class="review">
+        <h3 class="title">Meatless in Seatle (2007) Review</h3>
+        <p class="author">by Porky</p>
+        <img
+          class="image"
+          src="/images/1.webp"
+          alt="some mountains somewhere, they look nice"
+        />
+        <div class="rater"></div>
+        <div class="content"></div>
+      </article>
+    </section>
+    <footer>- copyright 2020 -</footer>
+    <script>
+      window.__STATE__ = {
+        rating: 3,
+        content: [
+          `The Romans named Sangiovese after the blood of Jupiter; that must have been some hangover. Hint: Sangiovese is a four syllable word. Maybe more if you're drunk. Red wine was associated with blood by the ancient Egyptians. Fruity flavors, with aromas of rose petals, peaches, and allspice. Sulfites are found in nearly all wines, produced by the yeast during fermentation. Throughout history, wine has been consumed for its intoxicating effects. Chenin blanc boasts a bouquet of fresh pears, saffron, jasmine, ginger, and quince.`,
+          `An inimitable flavor is found in barrels. Don't be shy: wine experts stick their nose deep into the glass in order to pick up the complex nuances.`,
+          `The term meritage is a blend of merit and heritage, and usually describes blended California wines. The best wines impart a lingering, complex and rich finish. During racking, a wine is moved to a new barrel and separated from sediment in the old one. A grape in the glass is worth two on the vine. Pinot noir is French for "black pinecone," a description of the grape's appearance.`,
+        ],
+      };
+    </script>
+    <script src="js/dehydrate-state.js"></script>
+  </body>
+</html>
