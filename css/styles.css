@@ -131,7 +131,17 @@ select {
 
 
 section, header {
-  padding: 1rem;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+header {
+  background-color: #002399;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
 }
 
 .image {
