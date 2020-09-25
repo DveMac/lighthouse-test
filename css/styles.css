@@ -128,3 +128,8 @@ button,
 select {
   vertical-align: middle; /* Helps keep form elements roughly aligned */
 }
+
+
+section, header {
+  padding: 1rem;
+}
