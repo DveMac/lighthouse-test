@@ -24,4 +24,7 @@ window.addEventListener("load", function () {
     p.innerText = para;
     content.appendChild(p);
   }
+
+  const image = document.querySelector('.image');
+  image.src = state.imageUrl;
 });
